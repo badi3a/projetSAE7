@@ -12,6 +12,7 @@ public class CandidatService {
     @Autowired
     private CandidatRepo candidatRepo;
 
+
     public List<Candidat> findAll() {
         return candidatRepo.findAll();
     }

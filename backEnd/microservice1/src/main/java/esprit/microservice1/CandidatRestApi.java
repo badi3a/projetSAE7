@@ -1,5 +1,6 @@
 package esprit.microservice1;
 
+
 import esprit.microservice1.entities.Candidat;
 import esprit.microservice1.services.CandidatService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,5 +36,6 @@ public class CandidatRestApi {
     public Candidat updateCandidat(@PathVariable Long id, @RequestBody Candidat updatedCandidat) {
         return candidatService.updateCandidat(id, updatedCandidat);
     }
+
 
 }

@@ -9,6 +9,7 @@ public class Candidat {
     @Id
     @GeneratedValue
     private int id;
+
     private String firstname;
     private String lastname;
     private String email;
@@ -26,6 +27,7 @@ public class Candidat {
     public int getId() {
         return id;
     }
+
 
     public String getFirstname() {
         return firstname;
@@ -45,7 +47,8 @@ public class Candidat {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
-    }
+
+   
 
     public void setEmail(String email) {
         this.email = email;
